@@ -1,0 +1,22 @@
+[
+    {
+        "link":"https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total",
+        "method":"GET",
+        "comment":"热榜列表"
+    },
+    {
+        "link":"https://zhihu.com/api/v3/feed/members/{user}/activities",
+        "method":"GET",
+        "comment":"用户活动"
+    },
+    {
+        "link":"https://www.zhihu.com/api/v4/search/preset_words",
+        "method":"GET",
+        "comment":""
+    },
+    {
+        "link":"https://www.zhihu.com/api/v4/answers/{answersID}/root_comments",
+        "method":"GET",
+        "comment":"获取回答的评论"
+    }
+]
