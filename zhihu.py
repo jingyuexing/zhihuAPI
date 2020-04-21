@@ -2,7 +2,7 @@
 # @Author: jingyuexing
 # @Date:   2020-04-21 18:24:20
 # @Last Modified by:   jingyuexing
-# @Last Modified time: 2020-04-21 20:21:24
+# @Last Modified time: 2020-04-21 20:30:06
 
 import json
 import urllib3
@@ -35,7 +35,8 @@ def GetHotList(limit=30):
         "desktop":"true"
     }
     return requests(method=method,url=url,parma=parma)
-    
+
+
 def getUserActive(user='',limit=10):
     config = api[1]
     url = config['link'].format(user=user)
@@ -56,7 +57,8 @@ def getAnswerComment(answerID=0,limit=20,offset=0,status='open'):
     }
     return requests(method=method,url=url,parma=parma)
 
-class User(object):
+
+class User:
     userId = ''
     name = ''
     fansNumber = 0
@@ -67,16 +69,17 @@ class User(object):
     def __init__(self,userName=''):
         pass
 
-class Answer(object):
+
+class Answer:
     """docstring for Answer"""
     answerID = 0
     def __init__(self, arg):
         pass
 
-class Articles(object):
+
+class Articles:
     """docstring for Articles"""
     def __init__(self, arg):
-        super(Articles, self).__init__()
-        self.arg = arg
+        pass
         
                         
