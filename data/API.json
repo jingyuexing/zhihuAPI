@@ -18,5 +18,15 @@
         "link":"https://www.zhihu.com/api/v4/answers/{answersID}/root_comments",
         "method":"GET",
         "comment":"获取回答的评论"
+    },
+    {
+        "link":"https://www.zhihu.com/api/v4/members/{username}",
+        "method":"GET",
+        "comment":"获取用户信息"
+    },
+    {
+        "link":"https://www.zhihu.com/api/v4/members/{username}/followers",
+        "method":"GET",
+        "comment":"用户粉丝"
     }
 ]

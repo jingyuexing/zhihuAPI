@@ -1,5 +1,4 @@
 [
-    "questions_count",
     "introduction",
     "questions_count",
     "best_answers_count",
@@ -56,5 +55,6 @@
     "org_name",
     "org_homepage",
     "is_org_createpin_white_user",
-    "badge%5B%3F(type%3Dbest_answerer)%5D.topics"
+    "badge",
+    "%5B%3F(type%3Dbest_answerer)%5D.topics"
 ]
